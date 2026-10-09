@@ -5,9 +5,9 @@ import pandas as pd
 from pathlib import Path
 #import statsmodels.api as sm
 
-st.title("Temporal Patterns in Global Strike Activity")
+st.title("Global Strike Trends")
 st.markdown(
-    "Based on reports in [GDELT](https://www.gdeltproject.org/), 2015–2025."
+    "Based on reports in [GDELT](https://www.gdeltproject.org/), 2015–2025. "
     "Switch resolutions to see how the story changes."
 )
 
