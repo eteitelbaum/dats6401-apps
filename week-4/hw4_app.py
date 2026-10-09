@@ -5,7 +5,18 @@ import pandas as pd
 from pathlib import Path
 #import statsmodels.api as sm
 
-st.title("Temporal Patterns in Strike Activity")
+st.title("Temporal Patterns in Global Strike Activity")
+st.markdown(
+    "Based on reports in [GDELT](https://www.gdeltproject.org/), 2015–2025."
+    "Switch resolutions to see how the story changes."
+)
+
+with st.expander("About the data"):
+    st.markdown(
+        "Counts reflect *news coverage*, so they partly track media attention. GDELT over-represents "
+        "English-language sources (the US is about a quarter of events), and coverage changes may "
+        "explain part of the post-2020 drop. Countries with fewer than 100 events are omitted."
+    )
 
 @st.cache_data
 def load_data():
