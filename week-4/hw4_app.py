@@ -14,8 +14,8 @@ st.markdown(
 with st.expander("About the data"):
     st.markdown(
         "Counts reflect *news coverage*, so they partly track media attention. GDELT over-represents "
-        "English-language sources (the US is about a quarter of events), and coverage changes may "
-        "explain part of the post-2020 drop. Countries with fewer than 100 events are omitted."
+        "English-language sources (the US is about a quarter of events), and coverage changes could "
+        "explain part of the post-2020 drop seen in the plot. Countries with fewer than 100 events are omitted."
     )
 
 @st.cache_data
