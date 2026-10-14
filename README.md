@@ -8,5 +8,6 @@ Homework apps for DATS 6401 (Visualization of Complex Data), GWU.
 | 2 | One question, two encodings | [week-2/hw2_app.py](week-2/hw2_app.py) |
 | 3 | PCA explorer: 1970s–80s cars | [week-3/hw3_app.py](week-3/hw3_app.py) |
 | 4 | Temporal patterns in strike activity (GDELT) | [week-4/hw4_app.py](week-4/hw4_app.py) |
+| 5 | Where and when strikes happen: animated ADM-1 map linked to the time series | [week-5/hw5_app.py](week-5/hw5_app.py) |
 
 Run locally: `pip install -r requirements.txt`, then `streamlit run week-N/hwN_app.py`.
